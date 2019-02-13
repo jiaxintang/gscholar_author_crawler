@@ -1,6 +1,7 @@
 import csv
 import time
 import json
+import os
 import requests
 from lxml import etree
 from bs4 import BeautifulSoup
@@ -169,7 +170,7 @@ if __name__ == '__main__':
     output_path = '/Volumes/External_new_partition/jiaxin/gscholar_hkust_data/'
     driver = initial()
 
-    authors_dirs = ['https://scholar.google.com.hk/citations?user=4jfyJaoAAAAJ&hl=zh-CN&oi=sra']
+    authors_dirs = ['https://scholar.google.com.hk/citations?user=HmyM5B8AAAAJ&hl=zh-CN&oi=sra']
     example_list = ['4OvOdSgAAAAJ', '5JE9m1EAAAAJ', 'ak35bjgAAAAJ', 'CZyWk8kAAAAJ', 'dcDrhzMAAAAJ',
                     'dsPXcxsAAAAJ', 'Dzh5C9EAAAAJ', 'Ec222JgAAAAJ', 'G2EJz5kAAAAJ', 'GXJqtYUAAAAJ',
                     'hNfaJTMAAAAJ', 'I1EvjZsAAAAJ', 'nxF4XdQAAAAJ', 'PkfChMgAAAAJ', 'V05Jz1oAAAAJ',
@@ -182,11 +183,15 @@ if __name__ == '__main__':
     while idx < len(authors_dirs):
         author_dir = authors_dirs[idx]
         idx += 1
+        with open('author_idx.txt', 'w') as fp:
+            fp.write(str(idx-1))
+        fp.close()
         count += 1
         url = author_dir
         uid = url.split('user=')[1].split('&')[0]
         print (url, uid)
         if uid in example_list: continue
+        if uid + '.json' in os.listdir('./author_list'): continue
         res, url_wrong = get_author_profile(url)
         if res:
             xpath = ".//div[@id='gsc_bdy']/div[@id='gsc_art']/form/div[@id='gsc_lwp']/div[@id='gsc_bpf']/button"
@@ -222,6 +227,12 @@ if __name__ == '__main__':
             for new_author_url in list(author_count.keys()):
                 if new_author_url not in authors_dirs:
                     authors_dirs.append(new_author_url)
+            with open('author_list.json', 'w') as fp:
+                fp.write(json.dumps(authors_dirs))
+            fp.close()
+            with open('author_idx.txt', 'w') as fp:
+                fp.write(str(idx))
+            fp.close()
         else:
             print(count, 'Error!')
             failed_list.append(count)

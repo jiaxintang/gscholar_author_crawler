@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5eaee5da-881c-4e61-a3f6-e28f852dcd6f" name="Default Changelist" comment="" />
+    <list default="true" id="5eaee5da-881c-4e61-a3f6-e28f852dcd6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_count.json" beforeDir="false" afterPath="$PROJECT_DIR$/author_count.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-649">
-              <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+            <state relative-caret-position="211">
+              <caret line="172" column="96" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="96" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/author_list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="76" selection-start-column="76" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="75" selection-start-column="1" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -63,10 +87,14 @@
       <replace>profile</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/author_list.json" />
       </list>
     </option>
   </component>
@@ -75,6 +103,7 @@
     <option name="width" value="1280" />
     <option name="height" value="730" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,6 +115,11 @@
             <path>
               <item name="gscholar_author_crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="gscholar_author_crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gscholar_author_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gscholar_author_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="author_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,13 +187,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5015674" side_tool="true" weight="0.2494043" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -177,16 +212,6 @@
     <entry file="file://$PROJECT_DIR$/pan_hui_author_count.json" />
     <entry file="file://$PROJECT_DIR$/author_list/4OvOdSgAAAAJ.json" />
     <entry file="file://$PROJECT_DIR$/author_list/4jfyJaoAAAAJ.json" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-649">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/author_count.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -197,6 +222,30 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" selection-start-column="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="172" column="96" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76" selection-start-column="76" selection-end-column="76" />
         </state>
       </provider>
     </entry>
