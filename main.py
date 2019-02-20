@@ -17,6 +17,7 @@ from urllib import parse, request
 # from pyvirtualdisplay import Display
 import sys
 import random
+import redis
 import codecs
 import math
 # sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
@@ -84,7 +85,8 @@ def get_author_profile(url):
             return False, None
         else:
             return True, None
-    except:
+    except Exception as e:
+        print (e)
         return False, url
 
 def get_citations(driver):
@@ -163,40 +165,44 @@ def search_citations(paper_citation_search, citation_number, uid):
             error_flag = True
         if error_flag:
             break
-
-    return author_count
+    if error_flag:
+        return None
+    else:
+        return author_count
 
 if __name__ == '__main__':
-    # output_path = '/Volumes/External_new_partition/jiaxin/gscholar_hkust_data/'
     driver = initial()
+    r = redis.Redis(host='184.170.214.178', port=6379, db=0)
 
-    with open('author_list.json', 'r') as fp:
-        # authors_dirs = ['https://scholar.google.com.hk/citations?user=HmyM5B8AAAAJ&hl=zh-CN&oi=sra']
-        authors_dirs = json.loads(fp.read())
-    fp.close()
-    example_list = ['4OvOdSgAAAAJ', '5JE9m1EAAAAJ', 'ak35bjgAAAAJ', 'CZyWk8kAAAAJ', 'dcDrhzMAAAAJ',
-                    'dsPXcxsAAAAJ', 'Dzh5C9EAAAAJ', 'Ec222JgAAAAJ', 'G2EJz5kAAAAJ', 'GXJqtYUAAAAJ',
-                    'hNfaJTMAAAAJ', 'I1EvjZsAAAAJ', 'nxF4XdQAAAAJ', 'PkfChMgAAAAJ', 'V05Jz1oAAAAJ',
-                    'wuGjSFsAAAAJ']
-
-    count = -1
-    failed_list = []
+    # with open('author_list.json', 'r') as fp:
+    #     # authors_dirs = ['https://scholar.google.com.hk/citations?user=HmyM5B8AAAAJ&hl=zh-CN&oi=sra']
+    #     authors_dirs = json.loads(fp.read())
+    # fp.close()
+    # example_list = ['4OvOdSgAAAAJ', '5JE9m1EAAAAJ', 'ak35bjgAAAAJ', 'CZyWk8kAAAAJ', 'dcDrhzMAAAAJ',
+    #                 'dsPXcxsAAAAJ', 'Dzh5C9EAAAAJ', 'Ec222JgAAAAJ', 'G2EJz5kAAAAJ', 'GXJqtYUAAAAJ',
+    #                 'hNfaJTMAAAAJ', 'I1EvjZsAAAAJ', 'nxF4XdQAAAAJ', 'PkfChMgAAAAJ', 'V05Jz1oAAAAJ',
+    #                 'wuGjSFsAAAAJ']
+    #
+    # failed_list = []
     # for author_dir in authors_dirs:
-    with open('author_idx.txt', 'r') as fp:
-        idx = int(fp.read()) - 1
-    fp.close()
+    # with open('author_idx.txt', 'r') as fp:
+    #     idx = int(fp.read()) - 1
+    # fp.close()
     # idx = 0
-    while idx < len(authors_dirs):
-        author_dir = authors_dirs[idx]
-        idx += 1
-        with open('author_idx.txt', 'w') as fp:
-            fp.write(str(idx-1))
-        fp.close()
-        count += 1
-        url = author_dir
+    # while idx < len(authors_dirs):
+    #     author_dir = authors_dirs[idx]
+    #     idx += 1
+    url = r.lpop("author_url_list")
+    while url is not None:
+        # with open('author_idx.txt', 'w') as fp:
+        #     fp.write(str(idx-1))
+        # fp.close()
+        # url = author_dir
+        print (url)
+        url = bytes.decode(url)
         uid = url.split('user=')[1].split('&')[0]
         print (url, uid)
-        if uid in example_list: continue
+        # if uid in example_list: continue
         # if uid + '.json' in os.listdir('./author_list'): continue
         res, url_wrong = get_author_profile(url)
         if res:
@@ -219,32 +225,34 @@ if __name__ == '__main__':
                 unfold_tag = driver.find_elements_by_xpath(xpath)[0]
 
             if not flag:
-                print(count, 'Error!')
-                failed_list.append(count)
-            # with open(output_path + str(count) + '.html', 'wb') as fp:
-            #     fp.write(driver.page_source.encode())
-            # fp.close()
+                print(url, 'Error!')
+                r.rpush('author_url_list', url)
+
             paper_citation_search, citation_number = get_citations(driver)
             author_count = search_citations(paper_citation_search, citation_number, uid)
-            with open('author_count.json', 'w') as fp:
-                fp.write(json.dumps(author_count))
-            fp.close()
-            print (author_count)
-            for new_author_url in list(author_count.keys()):
-                if new_author_url not in authors_dirs:
-                    authors_dirs.append(new_author_url)
-            with open('author_list.json', 'w') as fp:
-                fp.write(json.dumps(authors_dirs))
-            fp.close()
-            with open('author_idx.txt', 'w') as fp:
-                fp.write(str(idx))
-            fp.close()
+            if author_count:
+                print (author_count)
+
+                for new_author_url in list(author_count.keys()):
+                    # if new_author_url not in authors_dirs:
+                    #     authors_dirs.append(new_author_url)
+                    new_uid = url.split('user=')[1].split('&')[0]
+                    redis_res = r.sadd('uid_set', new_uid)
+                    if redis_res == 1:
+                        r.rpush('author_url_list', new_author_url)
+            else:
+                print (url, 'Error!')
+                r.rpush('author_url_list', url)
+            # with open('author_list.json', 'w') as fp:
+            #     fp.write(json.dumps(authors_dirs))
+            # fp.close()
+            # with open('author_idx.txt', 'w') as fp:
+            #     fp.write(str(idx))
+            # fp.close()
         else:
-            print(count, 'Error!')
-            failed_list.append(count)
-        print(count)
-    print(json.dumps(failed_list))
-    with open('failed.json', 'w') as fp:
-        fp.write(json.dumps(failed_list))
-    fp.close()
+            print('???')
+            print(url, 'Error!')
+            r.rpush('author_url_list', url)
+        url = r.lpop("author_url_list")
+
 
