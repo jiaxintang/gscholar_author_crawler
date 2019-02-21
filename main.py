@@ -227,6 +227,8 @@ if __name__ == '__main__':
             if not flag:
                 print(url, 'Error!')
                 r.rpush('author_url_list', url)
+                url = r.lpop("author_url_list")
+                continue
 
             paper_citation_search, citation_number = get_citations(driver)
             author_count = search_citations(paper_citation_search, citation_number, uid)
@@ -241,6 +243,8 @@ if __name__ == '__main__':
                     if redis_res == 1:
                         r.rpush('author_url_list', new_author_url)
             else:
+                if  uid + '.json' in os.listdir('./author_list'):
+                    os.remove('./author_list/' + uid + '.json')
                 print (url, 'Error!')
                 r.rpush('author_url_list', url)
             # with open('author_list.json', 'w') as fp:
@@ -250,7 +254,8 @@ if __name__ == '__main__':
             #     fp.write(str(idx))
             # fp.close()
         else:
-            print('???')
+            if  uid + '.json' in os.listdir('./author_list'):
+                os.remove('./author_list/' + uid + '.json')
             print(url, 'Error!')
             r.rpush('author_url_list', url)
         url = r.lpop("author_url_list")
