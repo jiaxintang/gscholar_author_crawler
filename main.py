@@ -86,8 +86,11 @@ def get_author_profile(url):
         else:
             return True, None
     except Exception as e:
-        print (e)
-        return False, url
+        # print (url)
+        if ("Cannot navigate to invalid URL" in e.__dict__['msg']):
+            return True, url
+        else:
+            return False, url
 
 def get_citations(driver):
     citation_tags = driver.find_elements_by_xpath(".//div[@id='gsc_art']//div[@id='gsc_a_tw']/table[@id='gsc_a_t']/tbody[@id='gsc_a_b']/tr[@class='gsc_a_tr']/td[@class='gsc_a_c']/a")
@@ -200,6 +203,7 @@ if __name__ == '__main__':
         # url = author_dir
         print (url)
         url = bytes.decode(url)
+        # url = str(url)
         uid = url.split('user=')[1].split('&')[0]
         print (url, uid)
         # if uid in example_list: continue
@@ -234,14 +238,14 @@ if __name__ == '__main__':
             author_count = search_citations(paper_citation_search, citation_number, uid)
             if author_count:
                 print (author_count)
-
+                print (list(author_count.keys()))
                 for new_author_url in list(author_count.keys()):
                     # if new_author_url not in authors_dirs:
                     #     authors_dirs.append(new_author_url)
                     new_uid = url.split('user=')[1].split('&')[0]
                     redis_res = r.sadd('uid_set', new_uid)
                     if redis_res == 1:
-                        r.rpush('author_url_list', new_author_url)
+                        r.rpush('author_url_list', bytes.decode(new_author_url))
             else:
                 if  uid + '.json' in os.listdir('./author_list'):
                     os.remove('./author_list/' + uid + '.json')

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eaee5da-881c-4e61-a3f6-e28f852dcd6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/set_uid_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/I1NjHD8AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/UMPc3wIAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/cuuQrqkAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+            <state relative-caret-position="904">
+              <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -33,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/set_uid_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="379">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
@@ -79,6 +81,10 @@
       <find>write</find>
       <find>search_citations</find>
       <find>Error</find>
+      <find>Except</find>
+      <find>Excepti</find>
+      <find>Exception</find>
+      <find>get_author_profile</find>
     </findStrings>
     <replaceStrings>
       <replace>profile</replace>
@@ -114,6 +120,11 @@
             <path>
               <item name="gscholar_author_crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="gscholar_author_crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gscholar_author_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gscholar_author_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="author_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +216,12 @@
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5015674" side_tool="true" weight="0.2494043" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,7 +279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/set_uid_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="379">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
@@ -278,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        <state relative-caret-position="904">
+          <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
