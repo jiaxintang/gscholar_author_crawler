@@ -2,12 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eaee5da-881c-4e61-a3f6-e28f852dcd6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/author_list_10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author_list_9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_idx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/author_idx.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/author_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/-ITitmUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/-qZy1fwAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/1iu4jEYAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/1reCSoIAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/2flWE58AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/2x2HPvYAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/3WcdNsMAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/4jfyJaoAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/4pjeAWcAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/50-RA6kAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/53o__6AAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/5MZ0s3cAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/5qRfh6cAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/6BvlB1gAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/6W3ns0oAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/7_7cAlgAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/7nOC-KMAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/8key_ToAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/99C8NaQAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/BQRNKssAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/D4Ypv6QAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/E-HkgTMAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/E1jnOcUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/FVl1fRUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/HmyM5B8AAAAJ.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/author_list/I1NjHD8AAAAJ.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/author_list/UMPc3wIAAAAJ.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/author_list/cuuQrqkAAAAJ.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/J_Zei9AAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/Ljd3pb0AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/LszY9TwAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/NulsX04AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/OT79Y9UAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/Olo0AFIAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/PBEHq1gAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/QZPYvOUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/Qc8GmIgAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/R1ZShbIAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/R1zsGF8AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/SMmcoJ4AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/TZgoVokAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/TcEqYIacsk0C.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/UnsBY_AAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/UuRB6OwAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/YcNGFBQAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/aT-r0UcAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/cNdTCk0AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/dT-9dtwAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/eGQmalQAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/eJJS6TQAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/f5zGN5EAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/fkhgXzUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/g-WedwYAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/gWOU-AkAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/gwEPz8MAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/hgkY5EUAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/m0Rgj0gAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/mB1iyikAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/mGMBNN4AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/mY7MWXMAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/o1Ap0TEAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/o2lrIdgAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/qRjO51UAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/qhlh_pkAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/qptgEhMAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/r_AbXNsAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/runT3RsAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/tX2vQ0sAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/tjF_vrsAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/v9JjkyYAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/vNEipfgAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/vcmA0LIAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/viE0O9MAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/x0YtT7QAAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/x1xr6r4AAAAJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_list/z4JIIysAAAAJ.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +103,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="199" column="34" lean-forward="true" selection-end-line="267" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_local.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="253" column="22" lean-forward="true" selection-start-line="253" selection-start-column="22" selection-end-line="253" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -33,10 +128,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/author_idx.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/set_uid_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="345">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
               </folding>
@@ -45,14 +149,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/author_count.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="255">
               <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -96,14 +195,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/author_list.json" />
         <option value="$PROJECT_DIR$/set_uid_list.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/author_idx.txt" />
+        <option value="$PROJECT_DIR$/author_list_9.json" />
+        <option value="$PROJECT_DIR$/author_list_8.json" />
+        <option value="$PROJECT_DIR$/author_list_7.json" />
+        <option value="$PROJECT_DIR$/author_list_6.json" />
+        <option value="$PROJECT_DIR$/author_list_11.json" />
+        <option value="$PROJECT_DIR$/author_list.json" />
+        <option value="$PROJECT_DIR$/author_list_2.json" />
+        <option value="$PROJECT_DIR$/author_list_3.json" />
+        <option value="$PROJECT_DIR$/author_list_4.json" />
+        <option value="$PROJECT_DIR$/author_list_12.json" />
+        <option value="$PROJECT_DIR$/author_list_5.json" />
+        <option value="$PROJECT_DIR$/author_list_10.json" />
+        <option value="$PROJECT_DIR$/main_local.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="557" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="730" />
@@ -149,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main_local">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gscholar_hkust" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +274,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_local" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gscholar_hkust" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_local.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,6 +326,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_local" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.set_uid_list" />
       </list>
@@ -216,7 +349,26 @@
     <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5015674" side_tool="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291536" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5015674" side_tool="true" weight="0.2494043" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,20 +385,14 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pan_hui_author_count.json" />
     <entry file="file://$PROJECT_DIR$/author_list/4OvOdSgAAAAJ.json" />
     <entry file="file://$PROJECT_DIR$/author_list/4jfyJaoAAAAJ.json" />
     <entry file="file://$PROJECT_DIR$/author_idx" />
-    <entry file="file://$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" selection-start-column="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list/y7lELJMAAAAJ.json" />
     <entry file="file://$PROJECT_DIR$/author_list/1iu4jEYAAAAJ.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -254,22 +400,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/author_list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/author_idx.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/author_count.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="255">
           <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -277,10 +410,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/author_count.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/set_uid_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="345">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
           </folding>
@@ -289,8 +425,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="199" column="34" lean-forward="true" selection-end-line="267" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_9.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_8.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_11.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_12.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_idx.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list_1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author_list/orHlhhQAAAAJ.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="253" column="22" lean-forward="true" selection-start-line="253" selection-start-column="22" selection-end-line="253" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
