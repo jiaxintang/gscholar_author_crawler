@@ -175,7 +175,7 @@ def search_citations(paper_citation_search, citation_number, uid):
 
 if __name__ == '__main__':
     driver = initial()
-    r = redis.Redis(host='184.170.214.178', port=6379, db=0)
+    # r = redis.Redis(host='184.170.214.178', port=6379, db=0)
 
     author_list_file = 'author_list_1.json'
     with open(author_list_file, 'r') as fp:
@@ -249,7 +249,7 @@ if __name__ == '__main__':
                 print (url, 'Error!')
                 idx -= 1
                 # r.rpush('author_url_list', url)
-            with open('author_list.json', 'w') as fp:
+            with open(author_list_file, 'w') as fp:
                 fp.write(json.dumps(authors_dirs))
             fp.close()
             with open('author_idx.txt', 'w') as fp:

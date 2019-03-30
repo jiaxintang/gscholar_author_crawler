@@ -2,6 +2,8 @@
 
 ## Preparation
 
+- Register an account on ```http://2captcha.com```, replace the ```API_KEY```  in main_local.py with your own api key.
+
 - Download the chromedriver corresponding to Chrome from ```https://chromedriver.storage.googleapis.com/index.html```, and put it in the project directory.
 
 - The chromedriver version corresponding to Chrome is as follows：
